@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "biseccion.h"
+#include "NewtonR.h"
 
 int main(){
     int op;
@@ -27,7 +28,7 @@ int main(){
             NewtonMenu();
             break;
         case 3:
-            printf("Regla falsan\n");
+            printf("Regla falsa.\n");
             break;
         case 4:
             printf("Aproximaciones sucesivas.\n");
